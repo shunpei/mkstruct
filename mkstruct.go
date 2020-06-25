@@ -15,7 +15,7 @@ func main() {
     var fields []string
     for _, f := range farr {
         c := strcase.ToCamel(f)
-        fields = append(fields, fmt.Sprintf("%s     string    `json:\"%s\"`",  c, f))
+        fields = append(fields, fmt.Sprintf("%s          string           `json:\"%s\"`",  c, f))
     }
     sfs := strings.Join(fields, "\n")
     format := `type %s struct {
