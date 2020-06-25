@@ -1,7 +1,7 @@
 # mkstruct
 
 ## Excute
-go run mkstruct.go -n event_option -f "id event_id event_date_id name num price event_type limit place organize created_at updated_at"
+`$ go run mkstruct.go -n event_option -f "id event_id event_date_id name num price event_type limit place organize created_at updated_at"`
 
 ## Output
 ```
